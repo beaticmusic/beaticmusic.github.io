@@ -1,0 +1,103 @@
+body * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header.container {
+	padding: 20px 0px;
+}
+
+header.container h2 {
+	font-weight: bold;
+}
+
+section.container .row {
+	display: flex;
+	align-items: flex-start;
+}
+
+section.container .row div.jumbotron {
+	height: 540px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+	transition-duration: 1.5s;
+}
+
+section.container .row div.jumbotron:hover {
+	background-color: black;
+}
+
+section.container .row div.jumbotron img {
+	border-radius: 100%;
+}
+
+section.container .row aside.jumbotron {
+	background-color: white;
+}
+
+section.container .row aside.jumbotron * {
+	padding: 10px 0px;
+}
+
+section.container .row aside.jumbotron h3 {
+	font-weight: bold;
+}
+
+section.container .row aside.jumbotron img {
+	position: relative;
+}
+
+section.container .row aside.jumbotron img:hover {
+	top: 1px;
+}
+
+main.container .row {
+	display: flex;
+	align-items: flex-end;
+}
+
+main.container .row section.jumbotron {
+	background-color: white;
+}
+
+main.container .row section.jumbotron h3 {
+	font-weight: bold;
+	margin: 20px 0px;
+}
+
+main.container .row section.jumbotron article.row {
+	display: flex;
+	align-items: center;
+	margin: 50px 0px;
+}
+
+main.container .row section.jumbotron article.row div a {
+	background-color: hsl(190, 50%, 50%);
+	color: white;
+	position: relative;
+}
+
+main.container .row section.jumbotron article.row div a:hover {
+	top: 1px;
+}
+
+main.container .row aside.jumbotron {
+	background-color: white;
+}
+
+main.container .row aside.jumbotron h3 {
+	font-weight: bold;
+}
+
+main.container .row aside.jumbotron a.btn {
+	background-color: hsl(190, 50%, 50%);
+	color: white;
+	position: relative;
+}
+
+main.container .row aside.jumbotron a.btn:hover {
+	top: 1px;
+}
