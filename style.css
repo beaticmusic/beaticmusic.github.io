@@ -17,7 +17,7 @@ section.container .row {
 	align-items: flex-start;
 }
 
-section.container .row section.jumbotron {
+section.container {
 	background-image: url("background.jpeg");
 	background-size: cover;
 	height: 540px;
